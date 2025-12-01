@@ -31,7 +31,7 @@ public class Arm {
         }
     }
 
-    public static final double elevBase = -.161/*-.1*/, wristBase = -.198;
+    public static final double elevBase = -.414/*-.1*/, wristBase = -.198;
     // public static final Position STARTING     = new Position(elevBase+0.37, wristBase+0.77, 0.104);
     // public static final Position READY     = new Position(elevBase+0.45, wristBase+0.77, 0.104);
     // public static final Position STARTING     = new Position(elevBase+0.469, wristBase+0.85, 0.64); //old starting before thurs
