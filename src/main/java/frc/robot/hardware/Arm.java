@@ -35,7 +35,7 @@ public class Arm {
     // public static final Position STARTING     = new Position(elevBase+0.37, wristBase+0.77, 0.104);
     // public static final Position READY     = new Position(elevBase+0.45, wristBase+0.77, 0.104);
     // public static final Position STARTING     = new Position(elevBase+0.469, wristBase+0.85, 0.64); //old starting before thurs
-    public static final Position STARTING  = new Position(elevBase+.1+.53, wristBase+.194+.543, elbowBase+0.04);
+    public static final Position STARTING  = new Position(elevBase+.1+.51, wristBase+.34, elbowBase-0.03);
     public static final Position READY     = new Position(elevBase+0.54, wristBase+0.81, elbowBase);
     public static final Position CORAL_L4     = new Position(elevBase+0.89, wristBase+0.194+.155, elbowBase+0.176); //THIS ONE
     public static final Position CORAL_L3     = new Position(elevBase+.1+0.693, wristBase+.198+.287, elbowBase + .055);//lower elevator, higher elbow
