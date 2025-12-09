@@ -31,16 +31,18 @@ public class Arm {
         }
     }
 
-    public static final double elevBase = -.408/*-.1*/, wristBase = -.285, elbowBase = 0.43;
+    public static final double elevBase = -.360/*-.1*/, wristBase = 0, elbowBase = 0.43;
     // public static final Position STARTING     = new Position(elevBase+0.37, wristBase+0.77, 0.104);
     // public static final Position READY     = new Position(elevBase+0.45, wristBase+0.77, 0.104);
     // public static final Position STARTING     = new Position(elevBase+0.469, wristBase+0.85, 0.64); //old starting before thurs
-    public static final Position STARTING  = new Position(elevBase+.1+.51, wristBase+.34, elbowBase-0.03);
-    public static final Position READY     = new Position(elevBase+0.54, wristBase+0.81, elbowBase);
+    public static final Position STARTING  = new Position(elevBase+.61, wristBase+.55, elbowBase+0.04);
+    public static final Position READY     = new Position(elevBase+0.54, wristBase+0.55, elbowBase);4
     public static final Position CORAL_L4     = new Position(elevBase+0.89, wristBase+0.194+.155, elbowBase+0.176); //THIS ONE
     public static final Position CORAL_L3     = new Position(elevBase+.1+0.693, wristBase+.198+.287, elbowBase + .055);//lower elevator, higher elbow
     // public static final Position CORAL_L2     = new Position(elevBase+0.76, wristBase+.68, 0.434);
-    public static final Position CORAL_L2     = new Position(elevBase+0.778, wristBase+.198+.409, elbowBase-0.076);
+    // public static final Position CORAL_L2     = new Position(elevBase+0.778, wristBase+.198+.409, elbowBase-0.076);
+    public static final Position CORAL_L2     = new Position(elevBase+0.778, 0.35, elbowBase-0.076);
+
 // 0.678 0.466
 
     // public static final Position CORAL_L1     = new Position(elevBase+0, wristBase+0, 0);$
@@ -58,7 +60,7 @@ public class Arm {
     public static final Position ALGAE_PROC   = new Position(elevBase+.1+.415, wristBase+.198+0.388, elbowBase - 0.019);
 
     // public static final Sequence CORAL_INTAKE_SEQ = new Sequence(List.of(
-    //     Pair.of(CORAL_PREP, 2.),
+    //     Pair.of(CORAL_PREP, 2.)
     //     Pair.of(CORAL_INTAKE, -1.)  
     // )); 
     // public static final Sequence CORAL_READY_SEQ = new Sequence(List.of(
